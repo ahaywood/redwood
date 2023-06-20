@@ -7602,7 +7602,7 @@ __metadata:
     eslint-import-resolver-babel-module: 5.3.2
     eslint-plugin-babel: 5.3.1
     eslint-plugin-import: 2.27.5
-    eslint-plugin-jest-dom: 4.0.3
+    eslint-plugin-jest-dom: 5.0.1
     eslint-plugin-jsx-a11y: 6.7.1
     eslint-plugin-prettier: 4.2.1
     eslint-plugin-react: 7.32.2
@@ -9288,22 +9288,6 @@ __metadata:
     lz-string: ^1.5.0
     pretty-format: ^27.0.2
   checksum: 25d1deddba014c107fd9703181fbb7063ed376d3ad42d7918ee752e7e677edfb5abaf672b22afc5257ffe760c9c7e5cc981656297c328bc61578d23c6b65b4dc
-  languageName: node
-  linkType: hard
-
-"@testing-library/dom@npm:^8.11.1":
-  version: 8.20.0
-  resolution: "@testing-library/dom@npm:8.20.0"
-  dependencies:
-    "@babel/code-frame": ^7.10.4
-    "@babel/runtime": ^7.12.5
-    "@types/aria-query": ^5.0.1
-    aria-query: ^5.0.0
-    chalk: ^4.1.0
-    dom-accessibility-api: ^0.5.9
-    lz-string: ^1.4.4
-    pretty-format: ^27.0.2
-  checksum: 454c71f65708d1504256ae055f060adf8ed9eadcc7ddbf6d07a528045beceb842783c1253871759f5c137eca58e5e32700dc64b130cbb37e10e7a52ab08d7b44
   languageName: node
   linkType: hard
 
@@ -16551,16 +16535,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest-dom@npm:4.0.3":
-  version: 4.0.3
-  resolution: "eslint-plugin-jest-dom@npm:4.0.3"
+"eslint-plugin-jest-dom@npm:5.0.1":
+  version: 5.0.1
+  resolution: "eslint-plugin-jest-dom@npm:5.0.1"
   dependencies:
     "@babel/runtime": ^7.16.3
-    "@testing-library/dom": ^8.11.1
     requireindex: ^1.2.0
   peerDependencies:
+    "@testing-library/dom": ^8.0.0 || ^9.0.0
     eslint: ^6.8.0 || ^7.0.0 || ^8.0.0
-  checksum: 4a9f17a1c3e537df6093cf82207121536a48565907d8173194339758f39d759db5f65fa6d632815eec36b4de2644fa2d721eae395c43943e2d4a76ecba9ebeb5
+  checksum: 505b5b61058797aeba770cf27ca55a7dd4732f7c0bc0090ffb3a93bf041af08bca4c888e380c594c14a356f02d003816ec5b2cdf2b47e377de7e74f03911674a
   languageName: node
   linkType: hard
 
@@ -22345,7 +22329,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lz-string@npm:^1.4.4, lz-string@npm:^1.5.0":
+"lz-string@npm:^1.5.0":
   version: 1.5.0
   resolution: "lz-string@npm:1.5.0"
   bin:
